@@ -4,10 +4,11 @@ import Header from '@/layout/Header'
 import Footer from '@/layout/Footer'
 
 function Layout({children}) {
+  const style={minHight: "700px"}
   return (
  <>
  <Header/>
- <div style={{minHight: "700px"}}>{children}</div>
+ <div style={style}>{children}</div>
  <Footer />
  </>
   )
