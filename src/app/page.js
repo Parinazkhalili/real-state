@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <main >
-      <h1>hello</h1>
+      <h1>سلام</h1>
     </main>
   );
 }
